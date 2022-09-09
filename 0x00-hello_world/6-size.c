@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * main - print the string in the printf function
@@ -14,7 +14,7 @@ int main(void)
 	long int li;
 	long long int lli;
 	float f;
-
+	
 	printf("Size of a char: %ld byte(s)\n", (unsigned long)sizeof(c));
 	printf("Size of an int: %ld byte(s)\n", (unsigned long)sizeof(i));
 	printf("Size of a long int: %ld byte(s)\n",  (unsigned long)sizeof(li));

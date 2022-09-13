@@ -1,17 +1,21 @@
 #include "main.h"
 
 /**
- * main - This program prints the phrase Hello, World
- * Return: Always 0 (Success)
+ * main - Entry point of the program
+ * Description: program that prints _putchar, followed by a new line.
+ * Return: Success (0)
  */
+
 int main(void)
 {
-	char ch[] = "_putchar";
-	int i;
+	char chars[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i = 0;
 
-	for (i = 0; ch[i] != '\0'; i++)
+	while (i < 8)
 	{
-		_putchar(ch[i]);
+		_putchar(chars[i]);
+		i++;
+
 	}
 
 	_putchar('\n');

@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * print_alphatbet - A function that prints alphabets
- * prints alphebets from a-z;
- * Return: Void
+ *
+ * print_alphabet - This function prints the alphabet in lowercase
+ *
+ * followed by a new line
+ *
  */
 
 void print_alphabet(void)
 {
-	char l = 'a';
+	int ch;
 
-	while (l <= 'z')
-	{
-		_putchar(l);
-		l++;
-	}
-	_putchar('\n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			_putchar(ch);
+
+		}
+		_putchar('\n');
+
 }

@@ -1,17 +1,14 @@
-#ifndef VARIADIC_F
-#define VARIADIC_F
+#ifndef VARIADIC_FUNCTIONS
+#define VARIADIC_FUNCTIONS
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
-  * struct op - Struct op
-  *
-  * @op: The operator
-  * @f: The function associated
-  */
+ * struct print - print type with corresponding print function
+ * @t: print type
+ * @f: print function
+ */
 typedef struct print
 {
 	char *t;
